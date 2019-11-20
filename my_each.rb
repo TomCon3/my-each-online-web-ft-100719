@@ -1,6 +1,6 @@
 def my_each(words)
-  while i = 0
-  my_each(words) do |word|
+  i = 0
+  while i < 
     puts word
   end
 end
