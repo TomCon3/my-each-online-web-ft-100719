@@ -3,7 +3,7 @@ def my_each(words)
   collection = []
   while i < words.length
   collection << yield  (words[i])
-  i += 1
+  i = i + 1
   end
   collection
 end
